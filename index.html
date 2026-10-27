@@ -58,6 +58,35 @@
             font-size: 20px;
         }
         }
+        .about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        height:500px;
+       }
+       .text{
+        margin: 60px 0px 0px 70px;
+       }
+       .text h1{
+        color: var(--secondColor);
+       }
+       .about img{
+        width: 300px;
+        height: 200px;
+        border-radius: 0px 20px;
+        margin: 60px 60px 0px 0px;
+       }
+       @media screen and (max-width:500px){
+          .about{
+            display: block;
+            text-align: center;
+        }
+        .about img{
+            margin-top: 0;
+            margin-left: 20%;
+        }
+       }
     </style>
 </head>
 <body>
@@ -67,6 +96,13 @@
             <button>Show More</button>
         </div>
     </header>
+    <section class="about">
+        <div class="text">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam adipisci architecto, incidunt explicabo tenetur ab cumque cupiditate praesentium fugiat ea autem earum consequatur expedita rerum, quas dolore eum nostrum accusamus sapiente? Laborum ipsam ea autem, porro aperiam omnis nisi!</p>
+        </div>
+        <img src="./imgs/p2.jpg" />
+    </section>
     
 </body>
 </html>
